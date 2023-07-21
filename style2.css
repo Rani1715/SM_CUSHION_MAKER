@@ -1,0 +1,42 @@
+* body
+   {
+    padding: 0;
+    margin: 0;
+    background: #313131;
+    box-sizing: border-box;
+
+  }
+.slider
+{
+  width: 80%;
+  height: 68vh;
+  border-radius: 5%;
+  background: url(sofa1.png);
+  margin: 100px auto;
+  animation: slide 20s infinite;
+}
+@keyframes changeImage {
+  25%
+{
+    background: url(sofa2.jfif);
+  }
+  50%
+{
+    background: url(sofa3.jfif);
+  }
+  75%
+{
+    background: url(sofa4.png);
+  }
+  100%
+{
+    background: url(sofa5.jfif);
+  }
+  125%k
+{
+    background: url(sofa6.jfif);
+  150%
+{
+    background: url(sofa7.jfif);
+
+}
